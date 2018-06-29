@@ -1,0 +1,5 @@
+flask
+numpy
+tensorflow
+keras
+pillow
