@@ -9,12 +9,10 @@ import keras
 
 global model,graph
 
-model_json = open('data/model.json','r').read()
+model_json = open('model/model.json','r').read()
 model = keras.models.model_from_json(model_json)
-model.load_weights('data/model.h5')
+model.load_weights('model/model.h5')
 graph = tf.get_default_graph()
-
-print([layer.output for layer in model.layers])
 
 def classify(x):
     with graph.as_default():
