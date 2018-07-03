@@ -27,7 +27,7 @@ python run.py
  ```
  * By default Flask server listens to port 5000 of localhost. Open [localhost:5000](http://localhost:5000) in your browser.
 
- Now you can play with the app. Draw any digit from 0 to 9 in rectangle, click send and see magic of ML.
+ Now you can play with the app. Draw any digit from 0 to 9 in the rectangle, then click send and behold the magic of ML.
  
 ![Screenshot of web app showing classification of drawn digit](https://raw.githubusercontent.com/deadfrominside/keras-flask-app/master/.scr/img.gif)
 
