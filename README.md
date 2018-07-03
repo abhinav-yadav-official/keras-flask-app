@@ -29,4 +29,6 @@ python run.py
 
  Now you can play with the app. Draw any digit from 0 to 9 in rectangle, click send and see magic of ML.
  
+![Screenshot of web app showing classification of drawn digit](https://raw.githubusercontent.com/deadfrominside/keras-flask-app/master/.scr/img.gif)
+
  Create an issue on my repo if you run into any error while doing this.
